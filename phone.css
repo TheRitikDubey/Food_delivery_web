@@ -11,7 +11,7 @@
     .nav .head li{
         font-size: 12px;
         margin:0px 0px;
-        padding: 3px 19px;
+        padding: 3px 15px;
         
     }
     #Home p{
@@ -28,6 +28,7 @@
     }
     #Service{
         flex-direction: column;
+        font-size: 15px;
 
     }
     #Service .box{
@@ -42,6 +43,7 @@
     #Apna_best .apna-box{
         padding: 15px;
         margin: 10px 2px;   
+        font-size: 15px;
     }
     /* Important bug of this page*/
     
@@ -50,6 +52,7 @@
         padding-left:12px;
         margin: 22px -154px;
         right: 2px;
+        font-size: 15px;
     }
     #apna-nonveg .nonveg-box{
         margin-left: -195px;
