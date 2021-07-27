@@ -1,0 +1,64 @@
+/* For mobile Phones */
+
+@media(max-width:600px)
+{
+    .nav .loogo img{
+        width: 48px;
+        height: 40px;
+        margin: -8px;
+        top: 23px;
+    }
+    .nav .head li{
+        font-size: 12px;
+        margin:0px 0px;
+        padding: 3px 19px;
+        
+    }
+    #Home p{
+        font-size:15px;
+    }
+    #Home{
+        font-size: 24px;
+        height: 400px;
+        padding: 52px 50px;
+
+    }
+    #Home::before{
+        height: 542px;
+    }
+    #Service{
+        flex-direction: column;
+
+    }
+    #Service .box{
+        
+    padding: 14px;
+    margin: 10px 0px; 
+    margin-bottom: 20px;
+    }
+    #Apna_best , #apna-nonveg{
+        flex-direction: column;
+    }
+    #Apna_best .apna-box{
+        padding: 15px;
+        margin: 10px 2px;   
+    }
+    /* Important bug of this page*/
+    
+    #apna-nonveg .nonveg-box{
+        padding: 31px 21px;
+        padding-left:12px;
+        margin: 22px -154px;
+        right: 2px;
+    }
+    #apna-nonveg .nonveg-box{
+        margin-left: -195px;
+        margin-right: -105px;
+    }
+    /* The BUG is solved :))*/
+    #Contact{
+        padding: 10px;
+        font-size: 9px;
+    }   
+    
+}

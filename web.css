@@ -1,0 +1,185 @@
+/*nav bar */
+.nav .head {
+      display: flex;
+      position: fixed;
+      top: 0px;
+      background-color: rgb(10, 10, 10,0.1);  
+      border-radius: 55px;
+     
+}
+
+ .nav .head li{
+    position: relative;
+    font-size: 40px;
+    text-decoration: none;
+    padding: 10px 21px;
+    margin: -3px 69px;
+    list-style-type: none;
+    
+}
+.head li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+/* hover designing*/
+.head li a:hover{
+    background-color: rgb(231, 110, 10);
+    border-radius: 8px;
+}
+/* image desining and background control*/
+#Home::before{
+    content: "";
+    position: absolute;
+    background: url('./Images/navBackground.jpg') no-repeat center center/cover;
+    height: 642px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+}
+.homehead{
+    text-align: center;
+}
+#Home{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 70px 36px;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    font-size: 45px;
+    color: white;
+}
+.bio,.discount{
+    text-align: center;
+    font-size: 30px;
+}
+.bio{
+    color: honeydew;
+}
+.discount{
+    color: rgb(12, 241, 12);
+}
+.btn{
+    padding: 6px 20px;
+    cursor: pointer;
+    font-size: 30px;
+    border: 0px solid;
+    border-radius: 25px;
+    font-weight: bolder;
+    
+}
+.btn:hover{
+    background-color:rgb(245, 118, 14);
+}
+/* Service design*/
+
+#Service .box img{
+    height: 160px;
+    display: block;
+    margin: auto;
+    
+    
+}
+#Service{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 35px;
+    margin: 34px;
+    display: flex;
+}
+.ser{
+    margin-top: 50px;
+    font-size: 49px;
+    text-align: center;
+    
+}
+
+
+#Service .box{
+    border: 2px solid brown;
+    margin: 2px 55px;
+    padding: 34px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    background-color: beige;
+}
+ 
+/* Apna best section*/
+ .best{
+    font-weight: 800;
+    font-size: 50px;
+    text-align: center;
+}
+#Apna_best{
+    display: flex;
+    margin-top: 20px;
+    font-size: 35px;
+    margin: 34px;
+}
+#Apna_best img{
+    height: 160px;
+    width: 220px;
+    display: block;
+    margin: auto;
+}
+
+#Apna_best .apna-box{
+    
+    flex-direction: column;
+    border: 2px solid rgb(29, 28, 28);
+    padding: 34px;
+    margin: 13px 50px;
+    background-color: rgb(146, 161, 90);
+} 
+#apna-nonveg{
+    display: flex;
+    margin:34px 226px;
+}
+#apna-nonveg img{
+    height: 160px;
+    width: 220px;
+    display:block;
+    margin: auto;
+}
+#apna-nonveg .nonveg-box{
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 85px;
+    margin-right: 200px;
+    margin: 40px 115px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    border-radius: 7px;
+    background-color: blanchedalmond;
+
+}
+/* Contact us feature*/
+
+#Contact {
+    text-align: center;
+    color: white;
+    background-color: rgb(5, 5, 5);
+    height: 360px;
+    font-weight: 700;
+}
+#Contact p{
+    text-align: left;
+    margin: 15px;
+    font-size: 20px;
+}
+#Contact .logo{
+    margin: 22px;
+}
+.nav .loogo img{
+    position: fixed;
+    margin: 10px;
+    height: 79px;
+    clip-path: circle(40% at 52% 35%);
+}
+
+
